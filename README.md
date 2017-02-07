@@ -38,6 +38,8 @@
 ## 流程图
  ![git workflow](http://oe8xfchya.bkt.clouddn.com/%E6%B5%81%E7%A8%8B%20%282%29.png)
 
+ ![git workflow](http://oe8xfchya.bkt.clouddn.com/1486439363%281%29.jpg)
+
 ## 关于自动化
  1. `feature` 合并到 `develop` 上时，`develop` 自动编译、打包、发布测试
  2. `master` 代码更新后自动打TAG,发版本
@@ -45,5 +47,6 @@
 
 ### 待讨论
  1. 是否需要 `release` 预发布环境？
- 2. 我只是改个小功能，一些文案也需要按流程来？
+ 2. 改个小功能，一些文案也需要按流程来？
  3. `code review` 时机
+ 4. 从 `master` 拉取的分支与 `develop` 分支有冲突
